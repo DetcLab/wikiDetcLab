@@ -1,14 +1,12 @@
 site_dir: site
-site_name: DetcLab
+site_name: WikiDetcLab
 site_url: https://detclab.github.io/wikiDetcLab/
 site_description: Conocimiento
 
 theme:
   name: material
-   
 
   nav:
-   - IoT: iot/index.md
    - Backend: backend/index.md
    - Frontend: frontend/index.md
  
