@@ -1,6 +1,6 @@
 site_dir: site
-site_name: Prodoelec
-site_url: https://wiki.prodoelec.com
+site_name: DetcLab
+site_url: https://detclab.github.io/wikiDetcLab/
 site_description: Conocimiento
 
 theme:
