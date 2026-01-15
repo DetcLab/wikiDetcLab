@@ -1,0 +1,58 @@
+site_dir: site
+site_name: Prodoelec
+site_url: https://wiki.prodoelec.com
+site_description: Conocimiento
+
+theme:
+  name: material
+   
+
+  nav:
+   - IoT: iot/index.md
+   - Backend: backend/index.md
+   - Frontend: frontend/index.md
+ 
+  # Paletas de color (modo claro / oscuro)
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: indigo       # color principal (barra superior)
+      accent: indigo        # color de acento (enlaces, botones)
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    # Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  
+  features:
+    - content.code.copy
+    - navigation.tabs # navegacion en la barra superior
+    #- navigation.sections # crea secciones en la barra lateral
+    - navigation.expand # expande el contenido en la barra lateral
+    - navigation.indexes   # usa index.md como página principal
+
+  language: es
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true 
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
