@@ -20,7 +20,7 @@ theme:
       accent: indigo        # color de acento (enlaces, botones)
       toggle:
         icon: material/weather-night
-        name: Cambiar a modo oscuro
+        name: Cambiar a modo oscur
 
     # Modo oscuro
     - scheme: slate
