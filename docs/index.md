@@ -1,18 +1,46 @@
-# Bienvenido a la DETCLAB
+# Inicio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bienvenido a la **Wikipedia del Laboratorio de Electrónica**, un espacio de referencia diseñado para recopilar, organizar y compartir todo el conocimiento relacionado con los laboratorios del departamento de electrónica de la Universidad de Granada.
 
-## Commands
+## ¿Qué encontrarás aquí?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+En esta Wikipedia se presenta información estructurada, clara y actualizada sobre los distintos aspectos del trabajo en el laboratorio.
 
-## Project layout
+##  Guías de uso de los equipos
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Guías prácticas y paso a paso para el uso de los principales instrumentos del laboratorio, entre ellos:
 
+- Polímetros
+- Osciloscopios
+- Fuentes de alimentación
+- Generadores de funciones
+- Analizadores y otros equipos de medida
+
+Cada guía incluye información sobre:
+- Conexión correcta del equipo
+- Ajustes básicos y configuración
+- Uso habitual en prácticas
+- Errores comunes
+- Recomendaciones de seguridad
+
+## ⚠️ Normas de seguridad y buenas prácticas
+
+Apartado dedicado a la seguridad y al correcto uso del laboratorio:
+
+- Normas de seguridad eléctrica
+- Buenas prácticas en el laboratorio
+- Uso responsable del material
+- Mantenimiento básico de los equipos
+
+## ¿A quién va dirigida esta plataforma?
+
+Esta Wikipedia está pensada para:
+
+- Alumnos
+- Profesorado y personal docente
+- Usuarios del laboratorio en proceso de formación
+- Personas interesadas en el aprendizaje práctico de la electrónica
+
+## Objetivo de la Wikipedia del Laboratorio
+
+El objetivo principal de esta plataforma es **centralizar el conocimiento del laboratorio**, reducir errores en el uso de los equipos y fomentar un aprendizaje autónomo, seguro y eficiente en el entorno práctico de la electrónica.
