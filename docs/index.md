@@ -44,6 +44,3 @@ Esta Wikipedia está pensada para:
 ## Objetivo de la Wikipedia del Laboratorio
 
 El objetivo principal de esta plataforma es **centralizar el conocimiento del laboratorio**, reducir errores en el uso de los equipos y fomentar un aprendizaje autónomo, seguro y eficiente en el entorno práctico de la electrónica.
-
-
-Prueba
