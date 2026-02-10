@@ -23,38 +23,39 @@ El **osciloscopio MSOX2002A** es un instrumento de medición que permite visuali
 
 ### 3.1 Ajuste vertical
 
-- **Volts/div:** escala de voltaje por división.  
-- **Posición:** desplaza la señal hacia arriba o abajo en la pantalla.  
+- **Volts/div:** escala de voltaje por división de cada canal **[1]**.  
+- **Posición:** desplaza la señal del canal hacia arriba o abajo en la pantalla **[2]**.
 
 ### 3.2 Ajuste horizontal
 
-- **Time/div:** escala de tiempo por división.  
-- **Posición:** desplaza la señal hacia la izquierda o derecha.  
+- **Time/div:** escala de tiempo por división **[3]**.  
+- **Posición:** desplaza la señal hacia la izquierda o derecha **[4]**.  
 
 ### 3.3 Ajuste de disparo (trigger)
 
-- **Nivel:** define el voltaje en el que la señal se estabiliza en pantalla.  
-- **Fuente:** selecciona el canal a usar para el disparo.  
-- **Modo:** auto o normal, según necesites visualizar señales periódicas o irregulares.  
+- **Nivel:** define el voltaje en el que la señal se estabiliza en pantalla **[5]**.  
+- **Menu disparo:** **[6]**.
+      - **Fuente:** selecciona el canal a usar para el disparo **[7]**.  
+      - **Modo:** auto o único, según necesites visualizar señales periódicas o irregulares **[8]**.
 
 ## 4. Medición paso a paso
 
 ### 4.1 Visualizar una señal
 
 1. Conecta la sonda al circuito y al canal del osciloscopio.  
-2. Ajusta **Volts/div** y **Time/div** hasta que la señal sea visible y clara.  
-3. Ajusta la **posición vertical y horizontal** para centrar la señal.  
+2. Ajusta **Volts/div**  **[1]** y **Time/div**  **[3]** hasta que la señal sea visible y clara.  
+3. Ajusta la **posición vertical [2]** y horizontal** **[4]** para centrar la señal.  
 
 ### 4.2 Estabilizar la señal
 
-1. Selecciona el canal en **trigger source**.  
-2. Ajusta el **nivel de disparo** hasta que la señal se mantenga estable en pantalla.  
-3. Usa el **modo auto** para señales continuas o **modo normal** para señales intermitentes.  
+1. Selecciona el canal en **trigger source** **[7]**.  
+2. Ajusta el **nivel de disparo** **[5]** hasta que la señal se mantenga estable en pantalla.  
+3. Usa el **modo auto** **[8]** para señales continuas o **modo único** para señales intermitentes.  
 
 ### 4.3 Medir parámetros de la señal
 
-- **Amplitud:** cuenta las divisiones verticales y multiplica por **Volts/div**.  
-- **Periodo:** cuenta las divisiones horizontales y multiplica por **Time/div**.  
+- **Amplitud:** cuenta las divisiones verticales y multiplica por **Volts/div** **[9]**.  
+- **Periodo:** cuenta las divisiones horizontales y multiplica por **Time/div** **[10]**.  
 - **Frecuencia:** 1 / período.  
 
 ## ⚠️ Consejos de seguridad
