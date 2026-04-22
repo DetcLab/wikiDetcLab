@@ -1,6 +1,6 @@
 # Inicio
 
-Bienvenido a la **Wikipedia del Laboratorio de Electrónica**, un espacio de referencia diseñado para recopilar, organizar y compartir todo el conocimiento relacionado con los laboratorios del departamento de electrónica de la Universidad de Granada.
+Bienvenido a la **Wikipedia del Laboratorio de Electrónica y Tenología de Computadores**, un espacio de referencia diseñado para recopilar, organizar y compartir todo el conocimiento relacionado con los laboratorios del departamento de electrónica de la Universidad de Granada.
 
 ## ¿Qué encontrarás aquí?
 
@@ -23,15 +23,6 @@ Cada guía incluye información sobre:
 - Errores comunes
 - Recomendaciones de seguridad
 
-## ⚠️ Normas de seguridad y buenas prácticas
-
-Apartado dedicado a la seguridad y al correcto uso del laboratorio:
-
-- Normas de seguridad eléctrica
-- Buenas prácticas en el laboratorio
-- Uso responsable del material
-- Mantenimiento básico de los equipos
-
 ## ¿A quién va dirigida esta plataforma?
 
 Esta Wikipedia está pensada para:
@@ -39,7 +30,7 @@ Esta Wikipedia está pensada para:
 - Alumnos
 - Profesorado y personal docente
 - Usuarios del laboratorio en proceso de formación
-- Personas interesadas en el aprendizaje práctico de la electrónica
+- Técnicos
 
 ## Objetivo de la Wikipedia del Laboratorio
 

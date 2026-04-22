@@ -3,11 +3,12 @@
 El **osciloscopio MSOX2002A** es un instrumento de medición que permite visualizar **señales eléctricas en el tiempo**, mostrando su forma de onda, amplitud y frecuencia. Esta guía explica cómo conectarlo y usarlo de manera segura y efectiva.
 
 ## 1. Componentes principales
+![Disparo](../recursos/imagenes/osc-msox-2002-control.png)
 
 - **Pantalla:** muestra la señal medida y la cuadrícula de referencia.  
-- **Controles verticales:** ajustan la escala de voltaje y posición vertical de la señal.  
-- **Controles horizontales:** ajustan la escala de tiempo y posición horizontal de la señal.  
-- **Controles de disparo (trigger):** estabilizan la señal en pantalla.  
+- **Controles verticales [1] [2]:** ajustan la escala de voltaje y posición vertical de la señal.  
+- **Controles horizontales [3] [4]:** ajustan la escala de tiempo y posición horizontal de la señal.  
+- **Controles de disparo (trigger) [5] [6]:** estabilizan la señal en pantalla.  
 - **Terminales de entrada (canales):**
   - **CH1, CH2:** entradas para sondas.  
 - **Sonda de medición:** punta que se conecta al circuito y ajusta la atenuación (1x, 10x).  
@@ -43,14 +44,16 @@ El **osciloscopio MSOX2002A** es un instrumento de medición que permite visuali
 ### 4.1 Visualizar una señal
 
 1. Conecta la sonda al circuito y al canal del osciloscopio.  
-2. Ajusta **Volts/div**  **[1]** y **Time/div**  **[3]** hasta que la señal sea visible y clara.  
-3. Ajusta la **posición vertical [2]** y horizontal** **[4]** para centrar la señal.  
+2. Encender el osciloscopio con **[ON]**.
+3. Ajusta **Volts/div**  **[1]** y **Time/div**  **[3]** hasta que la señal sea visible y clara.  
+4. Ajusta la **posición vertical [2]** y horizontal **[4]** para centrar la señal.  
 
 ### 4.2 Estabilizar la señal
 
-1. Selecciona el canal en **trigger source** **[7]**.  
+1. Selecciona el canal de diparo pulsando **[6]** y en **trigger source** **[7]**.  
 2. Ajusta el **nivel de disparo** **[5]** hasta que la señal se mantenga estable en pantalla.  
-3. Usa el **modo auto** **[8]** para señales continuas o **modo único** para señales intermitentes.  
+3. Usa el **modo run** **[8]** para señales continuas o **single** para señales intermitentes **stop** para congelar la señal en la pantalla.  
+
 
 ### 4.3 Medir parámetros de la señal
 

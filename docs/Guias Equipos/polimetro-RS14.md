@@ -3,6 +3,7 @@
 El **polímetro RS14** es un instrumento de medición de parámetros eléctricos como **tensión, corriente y resistencia**. Esta guía explica cómo conectarlo y usarlo de manera segura y efectiva.
 
 ## 1. Componentes principales
+![Polimetro](../recursos/imagenes/pol-rs-14.png)
 
 - **Pantalla LCD:** muestra los valores medidos y unidades. 
 - **Selector de función:** rueda giratoria para elegir el modo de medición (V, A, Ω, continuidad, etc.).  
@@ -22,17 +23,18 @@ El **polímetro RS14** es un instrumento de medición de parámetros eléctricos
 
 ## 3. Ajuste del modo de medición
 
+
 Gira la rueda del selector a la función que necesitas:  
 
 | Función | Símbolo | Uso |
 |---------|---------|-----|
 | Tensión continua | V⎓ | Medir voltaje de baterías o circuitos DC |
 | Tensión alterna | V~ | Medir voltaje de corriente AC |
-| Corriente continua | A⎓ | Medir corriente DC |
-| Corriente alterna | A~ | Medir corriente AC |
+| Corriente continua | 10A⎓ o mA o uA | Medir corriente DC |
+| Corriente alterna | 10A~ o mA o uA| Medir corriente AC |
 | Resistencia | Ω | Medir resistencia de resistencias o cables |
-| Continuidad | 🔔 | Comprobar si un circuito está cerrado |
-| Diodo | →| | Comprobar polaridad y caída de tensión en diodos |
+| Continuidad |  → + mode | Comprobar si un circuito está cerrado |
+| Diodo | →|  Comprobar polaridad y caída de tensión en diodos |
 
 ## 4. Medición paso a paso
 
@@ -42,18 +44,17 @@ Gira la rueda del selector a la función que necesitas:
 2. Conecta las puntas en paralelo al componente o circuito.  
 3. Lee el valor en la pantalla.  
 
-> ⚠️ **Precaución:** Nunca midas tensión AC de la red eléctrica si no tienes experiencia.  
-
 ### 4.2 Medir corriente
 
-!!!success "Por seguridad si no conocemos el valor que vamos a medir es mejor comenzar midiendo en la escala de 10 A y luego pasar a la de 200 ma si es menor a ese valor."
+!!!info "Por seguridad si no conocemos el valor que vamos a medir es mejor comenzar midiendo en la escala de 10 A y luego pasar a la de 200 ma cuando hemos comprobado que es menor a ese valor."
 
-1. Coloca el selector en **A⎓** o **A~**.  
-2. Para corrientes > 200 ma y < 10 A usa el terminal **10A**.
-3. Conecta las puntas **en serie** con el circuito.  
-4. Lee el valor en la pantalla.   
+1. Coloca el selector en **A⎓** o **mA** o **uA**.
+2. Con el botón **mode** cambiamos entre  **Coriente Alterna (~AC)** o **Corriente Continua (⎓DC)**.
+3. Para corrientes > 200 ma y < 10 A usa el terminal **10A**.
+4. Conecta las puntas **en serie** con el circuito.  
+5. Lee el valor en la pantalla.   
 
-> ⚠️ **Precaución:** Nuncas conectes las puntas en paralelo ya que fundiría el fusible interior.
+!!!danger "Nuncas conectes las puntas en paralelo con el circuito a medir, ya que fundiría el fusible interior."
 
 ### 4.3 Medir resistencia
 
@@ -64,13 +65,34 @@ Gira la rueda del selector a la función que necesitas:
 
 ### 4.4 Comprobación de continuidad
 
-1. Coloca el selector en **🔔**.  
-2. Conecta las puntas a ambos extremos del circuito.  
-3. Si hay continuidad, el polimetro emitirá un pitido.  
+1. Coloca el selector en **→**.  
+2. Pulsa el botón **mode**.
+3. Conecta las puntas a ambos extremos del circuito.  
+4. Si hay continuidad, el polimetro emitirá un pitido.  
+
+### 4.5 Comprobación de diodos
+
+1. Prueba en polarización directa:
+
+       - Conecta la punta positiva (roja) al terminal opuesto a la raya del diodo (ánodo).
+       - Conecta la punta negativa (negra) al terminal junto a la raya (cátodo).
+       - Observa la lectura:
+         - Si aparece OL → el diodo está abierto (dañado).
+         - Si aparece un valor de tensión (normalmente 0.6–0.7 V para diodos de silicio) → el diodo puede estar bien, seguimos con el siguiente paso.
+
+2. Prueba en polarización inversa:
+
+      - Invierte las puntas del multímetro:
+      - Punta positiva al cátodo.
+      - Punta negativa al ánodo.
+      - Observa la lectura:
+        - Si aparece OL → el diodo está correcto.
+        - Si aparece un valor de tensión → el diodo está defectuoso.
 
 ## ⚠️ Consejos de seguridad
 
-- Nunca midas corriente en paralelo, solo en serie.  
+- Nunca midas corriente en paralelo, solo en serie. 
+- Para medir un componente este debe estar fuera del circuito. 
 - Evita tocar las puntas metálicas con las manos mientras realizas mediciones.  
 - Asegúrate de que el rango del polimetro sea superior al valor esperado a medir.  
 - Apaga el polimetro después de usarlo para conservar la batería. 

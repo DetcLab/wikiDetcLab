@@ -3,12 +3,18 @@
 La **protoboard** es una placa de pruebas que permite **construir y probar circuitos electrónicos** sin necesidad de soldadura. Esta guía explica cómo usarla de manera correcta y segura.
 
 ## 1. Componentes principales
+![Protoborad](../recursos/imagenes/protoboard.png)
 
-- **Filas de conexión horizontales:** normalmente usadas para **alimentación positiva y negativa**.  
-- **Columnas de conexión verticales:** donde se insertan los componentes para formar el circuito.  
+- **Filas de conexión horizontales: Azules** y **Rojas** normalmente usadas para **alimentación positiva y negativa** cada línea horizontal es un mismo nodo, no hay conexión entre ellas.
+- **Columnas de conexión verticales: Verdes** y **Amarillas** donde se insertan los componentes para formar el circuito.
+    -  cada columna **verde** es un mismo nodo.
+    -  cada columna **amarilla** es un mismo nodo. 
+    -  Entre columnas **verdes** y **amarillas** no hay conexión.
+    -  Entre columnas adyacentes no hay conexión (1-2, 2-3, etc..)
 - **Orificio central:** divide las dos mitades de la protoboard, útil para integrar circuitos con CI (chips).  
 
 ## 2. Preparación del circuito
+![Montaje](../recursos/imagenes/protoboard_1.png)
 
 1. Identifica las filas de alimentación (marcadas con + y -).  
 2. Conecta la fuente de alimentación a las filas de alimentación respetando polaridad.  

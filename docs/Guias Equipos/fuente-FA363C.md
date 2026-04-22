@@ -27,25 +27,25 @@ La **fuente de alimentación Proxmax FA363C** permite suministrar **voltaje y co
 ### 2.1 Salida regulable (0-30V/0-5A)
 1. Enciende la fuente con el interruptor principal **[1]**.  
 2. Ajusta el **voltaje** al valor deseado usando el mando  **[2]**.  
-3. Ajusta el **límite de corriente** según las necesidades del circuito, **[3]** deberemos cortocircuitar las puntas para poder ver la intensidad en el display.
+3. Ajusta el **límite de corriente** según las necesidades del circuito, con el mando **[3]**.
 4. Observa en la pantalla que los valores se estabilicen antes de conectar la carga.  
 
 ### 2.2 Salidas fijas (+15V -15V o +5V -5V)
 1. Enciende la fuente con el interruptor principal  **[1]**.  
-!!! success "Estas salidas son fijas con lo que no pueden ser reguladas por los mandos anteriores."
+!!! info "Estas salidas son fijas con lo que no pueden ser reguladas por los mandos anteriores."
 
 ## 3. Conexión al circuito
 
 ### 3.1 Fuente regulable
-1. Conecta el terminal **rojo** al punto positivo del circuito **[5]**.  
-2. Conecta el terminal **azul** al punto negativo o masa del circuito **[5]**.  
+1. Conecta el terminal **rojo** de la salida **[5]** al punto positivo del circuito.  
+2. Conecta el terminal **azul** de la salida **[5]** al punto negativo del circuito. 
 3. Usa cables adecuados.(Están en un soporte en la pared del laboratorio).  
 4. Asegúrate de que las conexiones sean firmes y seguras.  
 
 ### 3.2 Fuentes fijas
-1. Conecta el terminal **rojo** al punto positivo del circuito **[6]**.  
-2. Conecta el terminal **azul** al punto negativo del circuito **[6]**.
-3. Conecta el terminal **negro** al gnd del circuito **[6]**.  
+1. Conecta el terminal **rojo** de la salida **[6]** al punto positivo del circuito.  
+2. Conecta el terminal **azul** de la salida **[6]** al punto negativo del circuito.
+3. Conecta el terminal **negro** de la salida **[6]** al GND del circuito.  
 3. Usa cables adecuados.(Están en un soporte en la pared del laboratorio).   
 5. Asegúrate de que las conexiones sean firmes y seguras.
 
@@ -55,4 +55,4 @@ La **fuente de alimentación Proxmax FA363C** permite suministrar **voltaje y co
 - Intenta respetar los colores de los cables con los de los conectores, esto facilitará su identificación en todo su recorrido hasta nuestro circuito.
 - Comprueba siempre la polaridad antes de conectar el circuito.  
   
-!!! warning "**Desconecta** siempre la fuente, antes de modificar el circuito o cambiar conexiones."
+!!! danger "**Desconecta** siempre la fuente, antes de modificar el circuito, o cambiar conexiones."
