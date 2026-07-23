@@ -1,17 +1,17 @@
 ---
-title: "Comp Electrónicos P1"
+title: "Comp Electrónicos P3"
 date: 2026-02-16
 tags:
   - protocolo
 ---
 
-# Componentes Electrónicos Práctica 1
+# Componentes Electrónicos Práctica 3
 
 - **Asignatura:** Componentes Electrónicos
 - **Grado:** Ing.Electrónica Industrial
 - **Departamento:** Electronica y Tecnología de Computadores
-- **Práctica:** [Introduction to the Laboratory.Passive Components](https://drive.google.com/open?id=1bglpoBeaM5yMZncB_NP_Zbl1Be_brl3X&usp=drive_fs)
-- [Protocolo PDF](https://drive.google.com/open?id=1rAl17aDxScghDW8VRid1C4kDWt6JV74y&usp=drive_fs)
+- **Práctica:** [DIODE APPLICATIONS](https://drive.google.com/open?id=1Kc2pTXPT3IVoTmebvLev4BaxBcvyKktn&usp=drive_fs)
+- [Protocolo PDF](https://drive.google.com/open?id=16fN5GAe0-_Ri1JFuQhoGrPPp6c3hGDYH&usp=drive_fs)
 
 ## 1. Equipos
 
@@ -26,13 +26,9 @@ tags:
 
 ## 3. Material
 
-- 1 Resistencia de 1k
-- 1 Resistencia de 6k8
-- 1 Resistencia de 10k
-- 1 Resistencia de 100k
-- 1 Resistencia de 1MΩ
-- 1 Resistencia de 10MΩ
-- 1 Condensador de 1n2
+-	1 Diodo UF4004 ( Ojo poner este, es más rápido y va bien a cualquier frecuencia)
+-	1 Resistencia de 1KΩ
+-	1 Condensador de 1nF
 
 ## 4. Preparación
 
