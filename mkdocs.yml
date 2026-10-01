@@ -32,7 +32,8 @@ theme:
     - content.code.copy
     - navigation.tabs # navegacion en la barra superior
     #- navigation.sections # crea secciones en la barra lateral
-    - navigation.expand # expande el contenido en la barra lateral
+    #- navigation.expand # expande el contenido en la barra lateral
+    - navigation.sections # No expnade el conenido de la barra lateral
     - navigation.indexes   # usa index.md como página principal
 
   language: es
